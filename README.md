@@ -4,4 +4,4 @@ This workshop illustrates the application of a number of Python-based tools to t
 The workshop illustrates:
 1. The use of the Python MDTraj module (see http://www.mdtraj.org)
 2. The use of the Python matplotlib module for plotting (see http://www.matplotlib.org)
-3. The use of the Python MDPlus module for Principal Component Analysis (see https://claughton.bitbucket.io/pypcazip/)
+3. The use of the Python MDPlus module for Principal Component Analysis (see https://claughton.bitbucket.io/pypcazip.html)

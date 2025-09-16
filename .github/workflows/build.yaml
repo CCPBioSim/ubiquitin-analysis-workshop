@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.8.0
         with:
-          images: ghcr.io/${{ github.repository }}
+          images: ghcr.io/${{ vars.ORG_REPO }}/${{ github.event.repository.name }}
 
       - name: Authenticate with GHCR
         id: auth

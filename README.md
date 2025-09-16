@@ -1,7 +1,7 @@
 CCPBioSim Ubiquitin Analysis Workshop
 =====================================
 
-[![build](https://github.com/jimboid/biosim-ubiquitin-analysis-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/jimboid/biosim-ubiquitin-analysis-workshop/actions/workflows/build.yaml)
+[![build](https://github.com/ccpbiosim/ubiquitin-analysis-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/ubiquitin-analysis-workshop/actions/workflows/build.yaml)
 
 This workshop illustrates the application of a number of Python-based tools to the analysis of the results from a short (1 nanosecond) simulation of ubiquitin, investigating the question "how similar is the MD trajectory to the crystal and NMR structures?"
 

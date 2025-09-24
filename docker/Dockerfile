@@ -3,7 +3,7 @@ ARG BASE_IMAGE=latest
 FROM ghcr.io/ccpbiosim/jupyterhub-base:$BASE_IMAGE
 
 LABEL maintainer="James Gebbie-Rayet <james.gebbie@stfc.ac.uk>"
-LABEL org.opencontainers.image.source=https://github.com/ccpbiosim/biosim-ubiquitin-analysis-workshop
+LABEL org.opencontainers.image.source=https://github.com/ccpbiosim/ubiquitin-analysis-workshop
 LABEL org.opencontainers.image.description="A container environment for the ccpbiosim workshop on Ubiquitin analysis."
 LABEL org.opencontainers.image.licenses=MIT
 
@@ -12,7 +12,7 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN conda install matplotlib ipywidgets -y
+RUN mamba install matplotlib ipywidgets -y
 RUN pip install mdplus mdtraj
 
 # Get workshop files and move them to jovyan directory.

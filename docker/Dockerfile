@@ -13,7 +13,7 @@ RUN conda install -y -c conda-forge \
     conda-forge::matplotlib=3.11.2 \
     conda-forge::ipywidgets=8.1.9
 RUN pip install --no-cache-dir \
-    mdtraj==1.11.1.post2 \
+    mdtraj==1.11.2 \
     mdplus==0.1.2
 
 # Get workshop files and move them to jovyan directory.
